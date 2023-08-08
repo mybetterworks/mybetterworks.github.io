@@ -244,7 +244,7 @@
                 <div class="author">
                     <div class="name">Henry</div>
                     
-                        <div class="label">Lv1</div>
+                        <div class="label">Lv2</div>
                     
                 </div>
                 <div class="statistics">
@@ -257,7 +257,7 @@
                         <div class="label">分类</div>
                     </a>
                     <a class="item" href="/archives">
-                        <div class="number">3</div>
+                        <div class="number">8</div>
                         <div class="label">文章</div>
                     </a>
                 </div>
@@ -282,7 +282,244 @@
                 
 
                 <h3 class="home-article-title">
-                    <a href="/2023/08/07/Centos7%E5%AE%89%E8%A3%85Docker/">
+                    <a href="/2023/08/07/Docker%E4%BD%BF%E7%94%A8Tomcat%E9%83%A8%E7%BD%B2war%E5%8C%85/">
+                        Docker使用Tomcat部署war包
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        
+拉取镜像
+1docker pull tomcat:8.5.82-jdk8-corretto
+
+查看镜像
+1docker images
+
+创建挂载目录
+1mkdir /docker/tomcat /docker/tomcat/webapps /doc...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Mon Aug 07 2023 20:32:38 GMT+0800">
+                
+                    2023-08-07
+                
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a href="/2023/08/07/Docker%E4%BD%BF%E7%94%A8Tomcat%E9%83%A8%E7%BD%B2war%E5%8C%85/">阅读全文<span class="seo-reader-text">Docker使用Tomcat部署war包</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2023/08/01/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+                        Linux常用命令
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        
+Centos系统
+
+查看系统版本
+1cat  /etc/redhat-release
+
+查看磁盘占用情况
+1df -h
+
+查看磁盘分区
+1fdisk -l
+
+查看磁盘
+1lsblk
+
+查询进程
+1ps -ef | grep 进程名
+
+6.查看IP地...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Tue Aug 01 2023 19:06:18 GMT+0800">
+                
+                    2023-08-01
+                
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a href="/2023/08/01/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">阅读全文<span class="seo-reader-text">Linux常用命令</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2023/07/19/Docker%E5%AE%89%E8%A3%85DM%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                        Docker安装DM数据库
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        
+下载镜像Docker安装包下载 
+
+上传镜像到&#x2F;docker&#x2F;dm文件夹下
+
+导入镜像
+1docker load -i dm8_20220822_rev166351_x86_rh6_64_ctm.tar
+
+启动容器
+1docke...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Wed Jul 19 2023 20:34:17 GMT+0800">
+                
+                    2023-07-19
+                
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a href="/2023/07/19/Docker%E5%AE%89%E8%A3%85DM%E6%95%B0%E6%8D%AE%E5%BA%93/">阅读全文<span class="seo-reader-text">Docker安装DM数据库</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2023/07/08/Docker%E5%AE%89%E8%A3%85Nginx/">
+                        Docker安装Nginx
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        
+拉取镜像
+1docker pull nginx
+
+查看镜像
+1docker images
+
+创建挂载目录
+12mkdir -p /docker/nginx/logmkdir -p /docker/nginx/FrontEnd/Web
+
+启动
+
+
+
+...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Sat Jul 08 2023 19:23:54 GMT+0800">
+                
+                    2023-07-08
+                
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a href="/2023/07/08/Docker%E5%AE%89%E8%A3%85Nginx/">阅读全文<span class="seo-reader-text">Docker安装Nginx</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2023/06/23/Docker%E5%AE%89%E8%A3%85Mysql5-7/">
+                        Docker安装Mysql5.7
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        
+拉取镜像
+1docker pull mysql:5.7
+
+查看镜像
+1docker images
+
+创建映射目录
+1mkdir -p /docker/mysql/logs /docker/mysql/data /docker/mysql/conf ...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Fri Jun 23 2023 18:11:18 GMT+0800">
+                
+                    2023-06-23
+                
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a href="/2023/06/23/Docker%E5%AE%89%E8%A3%85Mysql5-7/">阅读全文<span class="seo-reader-text">Docker安装Mysql5.7</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2023/05/28/Centos7%E5%AE%89%E8%A3%85Docker/">
                         Centos7安装Docker
                     </a>
                 </h3>
@@ -307,9 +544,9 @@
                 <div class="home-article-meta-info-container">
     <div class="home-article-meta-info">
         <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Aug 07 2023 21:55:52 GMT+0800">
+            <span class="home-article-date" data-date="Sun May 28 2023 21:55:52 GMT+0800">
                 
-                    2023-08-07
+                    2023-05-28
                 
             </span>
         </span>
@@ -317,7 +554,7 @@
         
     </div>
 
-    <a href="/2023/08/07/Centos7%E5%AE%89%E8%A3%85Docker/">阅读全文<span class="seo-reader-text">Centos7安装Docker</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+    <a href="/2023/05/28/Centos7%E5%AE%89%E8%A3%85Docker/">阅读全文<span class="seo-reader-text">Centos7安装Docker</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
 </div>
 
             </li>
